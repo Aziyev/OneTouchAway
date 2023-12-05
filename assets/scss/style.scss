@@ -290,9 +290,19 @@ background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Fi
                     border-radius: 20px;
                     text-align: center;
                     img{
-                        width: 100%;
-                        border-radius: 20px;
                         
+                        border-radius: 20px;
+                        animation-name: glovess;
+                        animation-duration: 6s;
+                        transition: 0.4s;
+                        animation-iteration-count: infinite;
+                    }
+                    
+                        
+                        
+                    
+                    img:hover{
+                        transform: scale(1.2);
                     }
                     h1{
                         font-family: 'Lobster', sans-serif;
@@ -313,4 +323,26 @@ background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Fi
              }
          }
      }
+     #banner3{
+        
+        background-image: url(../img/salkitty.png);
+        width: 100%;
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+        
+        h1{
+        
+
+            padding-top: 80px;
+            text-align: center;
+            font-size: 100px;
+            color:white;
+            font-family: 'Lobster', sans-serif;
+
+        }
+    }
 }

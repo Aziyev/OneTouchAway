@@ -253,8 +253,14 @@ main #section5 .container .box .box-mini {
   text-align: center;
 }
 main #section5 .container .box .box-mini img {
-  width: 100%;
   border-radius: 20px;
+  animation-name: glovess;
+  animation-duration: 6s;
+  transition: 0.4s;
+  animation-iteration-count: infinite;
+}
+main #section5 .container .box .box-mini img:hover {
+  transform: scale(1.2);
 }
 main #section5 .container .box .box-mini h1 {
   font-family: "Lobster", sans-serif;
@@ -267,4 +273,20 @@ main #section5 .container .box .box-mini p {
   font-size: 30px;
   padding: 10px 0px;
   color: white;
+}
+main #banner3 {
+  background-image: url(../img/salkitty.png);
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+main #banner3 h1 {
+  padding-top: 80px;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  font-family: "Lobster", sans-serif;
 }
